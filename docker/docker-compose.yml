@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  docker_env_var:
+    restart: always
+    build:
+      context: ./../
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 5002:5000
+    environment: 
+      - TEST_ENV_VAR=test123test

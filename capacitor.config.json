@@ -1,0 +1,13 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "docker_env_var",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

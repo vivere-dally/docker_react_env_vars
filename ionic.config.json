@@ -1,0 +1,7 @@
+{
+  "name": "docker_env_var",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
